@@ -1,3 +1,42 @@
 .body {
     background-color: blue;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav_bar ul li a {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.app_link {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.nav_bar ul li {
+    list-style: none;
+}
+.nav_bar ul {
+    display: flex;
+    gap: 20px;
+    /* justify-content: space-between; */
+    /* padding: 0 3rem 0 3rem; */
+}
+header {
+    margin: 1rem 5rem;
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+}
+.nav_bar > nav-links {
+    /* color: blue; */
+}
