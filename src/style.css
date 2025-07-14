@@ -8,6 +8,9 @@
     box-sizing: border-box;
 }
 
+header {
+    margin: 1rem 5rem;
+}
 .nav_bar ul li a {
     color: black;
     background-color: transparent;
@@ -29,9 +32,6 @@
     /* justify-content: space-between; */
     /* padding: 0 3rem 0 3rem; */
 }
-header {
-    margin: 1rem 5rem;
-}
 
 .nav_bar {
     display: flex;
@@ -39,4 +39,33 @@ header {
 }
 .nav_bar > nav-links {
     /* color: blue; */
+}
+
+.SmallImage {
+    height: auto;
+
+    width: 20px;
+
+    border-radius: 2%;
+}
+
+.hero {
+    padding: 12rem 0px;
+    background-image: url("/src/pics/home_image.jpeg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.hero-content {
+    display: flex;
+    margin: 0 40rem;
+    font-size: 20px;
+    /* justify-content: start; */
+    align-content: end;
+}
+
+.paragraph {
+    margin-top: 12%;
 }
